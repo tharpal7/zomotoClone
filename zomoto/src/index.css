@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nunito:ital,wght@1,300&family=Roboto+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+@import './style/commonClasses.css';
+@import "./style/variable.css";
+body {
+  margin: 0;
+  font-family: "Nunito",sans-serif;
+ box-sizing: border-box;
+  
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Conslas,"Courier New",
+  monospace;
+}

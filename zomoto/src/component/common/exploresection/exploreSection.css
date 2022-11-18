@@ -1,0 +1,10 @@
+.explore-section{
+   margin-top: 16px; 
+}
+
+.exlpore-grid{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap : 20px;
+}
+

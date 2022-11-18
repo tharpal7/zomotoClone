@@ -1,0 +1,166 @@
+ .explore-card {
+     display: grid;
+    grid-template-columns: repeat(3,350px);    
+    
+     margin: 12px 0px 15px 0px;
+     padding: 10px;
+     border-radius: 15px;
+     border: 1px solid transparent;
+ }
+
+ .explore-card-cover{  
+    border-radius:15px;
+    position: relative;
+ }
+
+ .exlpore-card-image{
+    /* object-fit:cover; */
+    height: 255px;
+   
+    width:330px;
+    border-radius: 15px;
+ }
+
+ .delivery-time {
+    position: absolute;
+    right:35px;
+    bottom:110px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter:blur(4px) ;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+ }
+
+ .pro-off {
+    position: absolute;
+    left: 10px;
+    bottom:128px;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0px 0px;
+    border-radius:0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500;
+ }
+
+ .discount{
+    position: absolute;
+    text-overflow: ellipsis;
+    left: 10px;
+    bottom: 100px;
+    background-color: var(--tag-blue);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0px 0px;
+    border-radius:0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500;
+ }
+
+ .gold-off {
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    background-color: var(--tag-blue);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0px 0px;
+    border-radius:0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500;
+ }
+ .name-rating{
+   display: flex;
+   justify-content: space-between;
+   
+   margin-right:20px;
+ }
+
+ .res-name{
+  
+   font-size:15px;
+    font-weight:600;    
+    margin: 0px;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    max-width:240px;   
+   color: var(--heading-text);
+ }
+  
+ .res-cuisine-tag{
+   margin-right: 4px;
+   color: var(--inactive-text);
+ }
+   
+.res-rating{
+   font-size: 10px;
+   background-color: var(--tag-green);
+   padding:2px 3px 2px 3px;
+   color: var(--primary-bg);
+   border-radius: 5px;
+}
+ 
+
+ .res-rating i{
+   font-size: 10px;
+   margin-left: 2px;
+ }
+
+ .res-row-name{
+  display: flex;
+  justify-content: space-between;
+  margin-right:20px;
+
+ }
+
+ .res-price{
+   font-size: 14px;
+   text-overflow: ellipsis;
+ }
+
+ .explore-bottom{
+   display: flex;
+   align-items: center;
+   max-width: 100%
+
+
+ }
+
+ .res-bottom-text{
+   font-size: 12px;
+   color: var(--inactive-text);
+   max-width: 200px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin-left: 8px;
+
+ }
+
+ .card-separator {
+   height: 2px;
+   margin:8px 20px 5px 0px;
+   background-color: var(--border-white);
+ }
+
+ .explore-card-cover :hover {
+   box-shadow: 20px 20px 30px 20px rgba(0, 0,0,0.1);;
+ }
+
+  
+ 
+
+ 
